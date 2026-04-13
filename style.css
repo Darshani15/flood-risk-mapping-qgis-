@@ -1,24 +1,51 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+/* TITLE */
 .title {
     text-align: center;
-    color: #0a4f6e;
+    color: black;
     font-size: 40px;
     font-weight: bold;
 }
 
+/* SUBTITLE */
 .subtitle {
     text-align: center;
-    color: #2c7da0;
+    color: black;
     margin-bottom: 20px;
+    font-size: 18px;
 }
 
-section {
-    background-color: #f5f9ff;
-}
-
+/* HEADINGS */
 h1, h2, h3 {
     font-family: Arial;
+    color: black;
 }
 
-.stSidebar {
-    background-color: #eaf4ff;
+/* MAIN CONTENT AREA */
+section {
+    background-color: white;
+}
+
+/* SIDEBAR */
+[data-testid="stSidebar"] {
+    background-color: white;
+}
+
+/* REMOVE STREAMLIT BLUE STYLING */
+.stApp {
+    background-color: white;
+}
+
+/* TEXT IN SIDEBAR */
+.stSidebar, .stRadio label {
+    color: black;
+}
+
+/* MAP BORDER (optional clean look) */
+iframe {
+    border: 1px solid black;
 }
